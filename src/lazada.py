@@ -1,3 +1,5 @@
+import sys
+
 from playwright.sync_api import sync_playwright
 import pandas as pd
 import time
@@ -60,7 +62,7 @@ def crawl_lazada(limit):
 
                 # Ảnh sản phẩm
                 try:
-                    image = product.locator("img").get_attribute("src", timeout=2000)
+                    image = product.locator("img").get_attribute("src")
                 except:
                     image = "No image"
 
