@@ -104,6 +104,5 @@ if __name__ == "__main__":
 
     # Xuất ra CSV
     df = pd.DataFrame(data)
-    df.to_csv("lazada_products_2.csv", index=False, encoding="utf-8-sig")
-
-    print("✅ Đã lưu kết quả vào lazada_products_2.csv")
+    df.to_csv("lazada_product.csv", index=False, encoding="utf-8-sig")
+    print("✅ Đã lưu kết quả vào lazada_product.csv")

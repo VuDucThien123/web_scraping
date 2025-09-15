@@ -51,4 +51,4 @@ for item in items:
 df = pd.DataFrame(results)
 print(df.head())
 
-df.to_csv("lazada_products.csv", index=False, encoding="utf-8-sig")
+df.to_csv("lazada_product_2.csv", index=False, encoding="utf-8-sig")
